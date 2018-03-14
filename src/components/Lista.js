@@ -4,9 +4,9 @@ const hobiies = ['cantar', 'comer', 'codear']
 
 const Lista = () => (
   <div>
-    hobiies.map{
-      <li>
-    }
+    <li>Cantar</li>
+    <li>Bailar</li>
+    <li>Comer</li>
   </div>
 )
 

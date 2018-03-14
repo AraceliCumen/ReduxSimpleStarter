@@ -6,7 +6,7 @@ const Header = () => (
         <div className="container-fluid">
           {/* Brand and toggle get grouped for better mobile display */}
           <div className="navbar-header">
-            <a className="navbar-brand" href="#">Brand</a>
+            <a className="navbar-brand" href="#">Araceli- header</a>
           </div>
         </div>{/* /.container-fluid */}
       </nav>
