@@ -1,10 +1,9 @@
 import React from 'react';
 
-const hobiies = ['cantar', 'comer', 'bailar']
 
-const Lista = () => (
+const Lista = ({hobbies}) => (
   <ul>
-    {hobiies.map(function (hobie, i) {
+    {hobbies.map(function (hobie, i) {
       return <li key={i}><a href="#li">{hobie}</a></li>
     })}
   </ul>
