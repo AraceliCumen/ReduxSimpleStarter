@@ -1,7 +1,12 @@
 import React from 'react';
+import Header from './Header'
+import Lista from './Lista';
 
 const App = () => (
-  <div>React and redux are cool</div>
+  <div>
+    <Header/>
+    <Lista/>
+  </div>
 )
 
 export default App
