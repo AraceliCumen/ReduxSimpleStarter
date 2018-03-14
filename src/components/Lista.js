@@ -1,13 +1,13 @@
 import React from 'react';
 
-const hobiies = ['cantar', 'comer', 'codear']
+const hobiies = ['cantar', 'comer', 'bailar']
 
 const Lista = () => (
-  <div>
-    <li>Cantar</li>
-    <li>Bailar</li>
-    <li>Comer</li>
-  </div>
+  <ul>
+    {hobiies.map(function (hobie, i) {
+      return <li key={i}><a href="#li">{hobie}</a></li>
+    })}
+  </ul>
 )
 
 export default Lista
