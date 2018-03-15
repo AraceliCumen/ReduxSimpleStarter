@@ -1,13 +1,13 @@
 import React from 'react';
 import Lista from './Lista'
 
-const hobiies=['cantar', 'comer', 'bailar']
-
-const Section = (img) => (
+const Section = ({person}) => (
   <section>
-    <img src={img} />
+    <h1>{person.name}</h1>
+    <img src={person.foto} />
+    <p>{person.bio}</p>
     <h3>Mis Hobiies:</h3>
-    <Lista hobbies = {hobiies}/>
+    <Lista hobbies = {person.hobbies}/>
   </section>
 )
 
